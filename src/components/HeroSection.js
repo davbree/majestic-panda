@@ -13,7 +13,7 @@ export default class HeroSection extends React.Component {
         const actions = _.get(section, 'actions');
 
         return (
-            <section id={sectionId} className="hero">
+            <section id={sectionId} className="hero">AAA
                 <div className="container container--lg">
                     {title && <h1 className="hero__title">{title}</h1>}
                     {content && (
