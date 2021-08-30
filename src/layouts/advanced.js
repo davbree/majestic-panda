@@ -21,7 +21,7 @@ export default class Advanced extends React.Component {
             <Layout page={page} config={config}>
                 {!hideTitle && (
                     <header className="section section--header">
-                        <div className="container container--lg">
+                        <div className="container container--lg bg-">
                             <h1 className="section__title line-top">{title}</h1>
                             {subtitle && <p className="section__subtitle">{subtitle}</p>}
                         </div>
